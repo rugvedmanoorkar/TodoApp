@@ -10,7 +10,8 @@ export class TodoItem extends Component {
             textDecoration: this.props.todo.completed ? 'line-through' : 'none'
         }
     }
-    
+    //Added in branch
+    //added in todo2
     render() {
         const {id , title } = this.props.todo
         return (
